@@ -19,7 +19,7 @@ library("RColorBrewer")
 
   # use tm::Corpus() function details FOR an input text. 
 
-STEP 2: text<-"Cloud computing is also called as “ON DEMAND COMPUTING”.
+STEP 2: text<-"Cloud computing is also called as â€œON DEMAND COMPUTINGâ€.
  It is a model in which there is On Demand Access to a shared pool of configurable computing resources. 
 We save our data on cloud when we have limited amount of storage. 
 Cloud provides storage and the data that are stored in cloud is also having backup as it retains many copies of that particular data."
@@ -52,4 +52,4 @@ STEP 7: Finally, we draw word cloud for df_text.
 WHERE , rot.per is the percentage of vertical text, and colors provides a wide choice of symbolizing your data.
              Scale controls the difference between the largest and smallest font, 
            max.words is required to limit the number of words in the cloud 
-          (if you omit this R will try to squeeze every unique word into the diagram),
+          (if you omit this R will try to squeeze every unique word into the diagram), ..... 
